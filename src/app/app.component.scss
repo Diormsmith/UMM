@@ -1,11 +1,19 @@
 
   #barnner{
-    height: 90%;
+    height: 450px;
     background-size:cover;
     background-position: center;
-    background-image: url('/assets/imagenes/photo5037577501395757442.jpg');
+   // background-image: url('/assets/imagenes/banner2.png');
     background-position:center ;
     background-repeat: no-repeat;
 
     //background-color: cornflowerblue;
     }
+p{
+  text-align: center;
+}
+.fijada {
+  position: fixed;
+
+
+}
