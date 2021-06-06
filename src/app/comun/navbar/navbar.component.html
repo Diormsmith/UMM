@@ -1,60 +1,36 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button mat-icon-button color="primary" >
-    <span class="material-icons">
-      menu
-      </span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-toggler menu-bar" style="position: fixed;
+z-index: 100; width: 100%; ">
+<button class="navbar-toggler navbar-toggler-rigth" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
-  <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown" >
+  <div class="col">
+    <img src='../assets/imagenes/logito.png'>
+
+  </div>
+<div  class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown" >
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+       <li class="nav-item">
+        <a class="nav-link" href='/about' style="font-size:medium; font-family:Verdana, Geneva, Tahoma, sans-serif;">Acerca</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="/servicios" style="font-size: medium; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Servicios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="/hazteVoluntario" style="font-size: medium; font-family:Verdana, Geneva, Tahoma, sans-serif;">Hazte Voluntario</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/ayuda" style="font-size: medium; font-family:Verdana, Geneva, Tahoma, sans-serif;">Dona</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contacto" style="font-size: medium;font-family:Verdana, Geneva, Tahoma, sans-serif;">Contacto</a>
       </li>
 
     </ul>
   </div>
+</div>
+ </nav>
 
-  <div class="justify-content-end">
-    <button mat-icon-button color="primary">
-      <span class="material-icons">
-        search
-        </span>
-    </button>
-  </div>
-</nav>
 
-<nav class="row align-items-center">
-    <div class="col align-self-center ">
-      <button mat-stroked-button color="primary" >
-        Hazte Voluntario
-      </button>
-   </div>
-   <div class="col">
-       <img src='../assets/imagenes/logo.png'>
-       <img src='../assets/imagenes/letras.png'>
-   </div>
-   <div class="col">
-    <button mat-icon-button color="primary" >
-      <span class="material-icons">
-        facebook
-        </span>
-    </button>
-    <button mat-icon-button color="primary" >
-      <span class="material-icons">
-        stars
-        </span>
-    </button>
-    <button mat-icon-button color="primary" >
-      <span class="material-icons">
-        thumb_up_off_alt
-        </span>
-    </button>
-   </div>
 
-</nav>
